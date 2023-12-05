@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINITY </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="#" class="logo">INFINITY</a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="#">ACCUEIL</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="index.infos.html">INFOS</a></li>
+                    <li><a href="index.html contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="menu" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </nav>
+        <header>
+                <p class="faux-text">
+                    Que fais-tu ici ?
+                </p>
+            <div id="affiche">
+                <p class="text-1">
+                    Notre performance est votre succès. Notre passion, c’est l’innovation. Notre expertise est inégalée. Nous vous en donnons plus<br>
+                   Toujours là quand vous avez besoin de nous ~ nos services existent pour VOUS servir !
+                </p>
+                <img src="img/technologie-hand.jpg" alt="technologie-hand" class=tech>
+            </div>
+            <div id="service">
+                <div id="service-1">
+                    <img src="img/camera.jpg" alt="camera" class="service-img">
+                    <p class="text-2">
+                        Nos installations de camera
+                    </p>
+                    <h3 class="cliquer">cliquer <a href="#">ici </a></h3>
+                </div>
+                <div id="service-2">
+                    <img src="img/kit-solaire.jpg" alt="kit-solare" class="service-img">
+                    <p class="text-3">
+                        Nos installations de Pano-solaire
+                    </p>
+                    <h3 class="cliquer">cliquer <a href="#">ici </a></h3>
+                </div>
+                <div id="service-3">
+                    <img src="img/phone tech.jpg" alt="phone" class="service-img">
+                    <p class="text-4">
+                        Prix de nos telephones,tablettes,etc
+                    </p>
+                    <h3 class="cliquer">cliquer <a href="#">ici </a></h3>
+                </div>
+            </div>
+            <p class="citation">
+                &#8223; L'informatique, ça fait gagner beaucoup de temps... à condition d'en avoir beaucoup devant soi ! &#8221;
+            </p>
+            <footer>
+                <ul id="mode">
+                    <li>
+                        <li id="copyright">©2023 Infinity,Inc, All rights reserved.</li>
+                        <li id="social-icons">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                               <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="https://www.twitter.com" target="_blank">
+                               <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="https://www.youtube.com" target="_blank">
+                               <i class="fa fa-youtube"></i>
+                            </a>
+                        </li>
+                    <li>
+                </ul>
+            </footer>
+        </header>
+    </body>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navlinks= document.querySelector(".nav-links")
+
+        menu.addEventListener("click",()=>{
+        navlinks.classList.toggle("mobile-menu")})
+    </script>
+</html>
